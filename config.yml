@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: Opencomp · État du service
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -64,7 +64,7 @@ buildFuture: true
 #
 # See:  https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 # Also: https://www.w3schools.com/tags/ref_language_codes.asp
-languageCode: en
+languageCode: fr
 
 # What translation file should cState use?
 # You can also define whether missing
@@ -78,7 +78,7 @@ languageCode: en
 # than English! When tested with Lithuanian,
 # it would add unnecesary placeholders to
 # values that were intentionally empty.
-defaultContentLanguage: en
+defaultContentLanguage: fr
 
 # What is the hostname or path to the root?
 # Where is the site hosted?
@@ -121,10 +121,6 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
-      description: The main servers are located here.
-      closed: true
-    - name: East Coast      
     - name: Uncategorized
       untitled: true
 
@@ -134,15 +130,22 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: East Coast
-    - name: API
-      description: The guts of the application.
+    - name: Passerelle
       category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+    - name: Service Web Opencomp
+      description: Il s'agit de l'application principale accessible à l'adresse https://my.opencomp.fr
+      category: Uncategorized
+    - name: Application Opencomp Genie
+      description: L'application Opencomp Genie permettant la communication des résultats détectés à partir d'un fichier PDF contenant la numérisation des copies de vos élèves.
+      category: Uncategorized
+    - name: Gestion des abonnements
+      description: Le système de gestion des abonnement gère la génération des bons de commande et des factures.
+      category: Uncategorized
+    - name: Gestion des paiements
+      description: Stripe, notre prestatire de traitement des paiements fourni les services permettant le débit sécurisé de votre carte bancaire.
+      category: Uncategorized
+    - name: Documentation Opencomp
+      description: Il s'agit de la documentation accessible à l'adresse https://doc.opencomp.fr
       category: Uncategorized
 
   # What date format to use?
@@ -154,14 +157,14 @@ params:
   #
   # dateFormat Default: "January 2, 2006 at 3:04 PM"
   # shortDateFormat Default: "15:04 — Jan 2"
-  dateFormat: January 2, 2006 at 3:04 PM
-  shortDateFormat: 15:04 — Jan 2
+  dateFormat: 02/01/2006, 15:04
+  shortDateFormat: 15:04 — 02/01
 
   # What header design should we use?
   #
   # Default: true
   # BOOLEAN; `true`, `false`
-  useLargeHeaderDesign: false
+  useLargeHeaderDesign: true
 
   # Should incident history be separated
   # like in an archive view?
@@ -185,14 +188,14 @@ params:
   #
   # Default: `false`
   # BOOLEAN; `true`, `false`
-  disableDarkMode: false
+  disableDarkMode: true
 
   # Should we show the logo or the title
   # of the status page?
   #
   # Default: false
   # BOOLEAN; `true`, `false`
-  useLogo: true
+  useLogo: false
 
   # Where is the logo located, if one is
   # present at all?
@@ -208,7 +211,7 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
+  description: Nous surveillons en permanence l'état de nos services et s'il y a des interruptions, une note sera affichée ici.
 
   # Tabs on homepage
   # Uncomment to enable.
@@ -248,7 +251,7 @@ params:
   # disrupted: "#cc4400"
   # down: "#e60000"
   # notice: "#24478f"
-  brand: "#0a0c0f"
+  brand: "#5e32a4"
   ok: "#008000"
   disrupted: "#cc4400"
   down: "#e60000"
