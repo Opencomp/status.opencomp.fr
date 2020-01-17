@@ -90,7 +90,7 @@ defaultContentLanguage: fr
 # localhost should automatically work.
 #
 # Example: https://status.example.com/
-baseURL: https://cstate.mnts.lt
+baseURL: https://status.opencomp.fr
 
 ############################################################
 # +------------------------------------------------------+ #
