@@ -217,10 +217,9 @@ params:
   # Uncomment to enable.
   #
   # Format:
-  # customTabs:
-  #  -
-  #    name: Name
-  #    link: https://example.com
+  customTabs:
+   - name: Disponibilité
+     link: http://uptime.opencomp.fr
 
   # Auto refresh the page
   # every ~5 min
