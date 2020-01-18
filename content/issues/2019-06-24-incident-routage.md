@@ -7,7 +7,6 @@ severity: down
 affected:
   - Passerelle
   - Service Web Opencomp
-  - Application Opencomp Genie
   - Gestion des abonnements
 section: issue
 ---

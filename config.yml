@@ -135,9 +135,6 @@ params:
     - name: Service Web Opencomp
       description: Il s'agit de l'application principale accessible à l'adresse https://my.opencomp.fr
       category: Uncategorized
-    - name: Application Opencomp Genie
-      description: L'application Opencomp Genie permettant la communication des résultats détectés à partir d'un fichier PDF contenant la numérisation des copies de vos élèves.
-      category: Uncategorized
     - name: Gestion des abonnements
       description: Le système de gestion des abonnement gère la génération des bons de commande et des factures.
       category: Uncategorized
