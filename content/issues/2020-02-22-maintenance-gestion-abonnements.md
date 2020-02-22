@@ -1,7 +1,7 @@
 ---
 title: Maintenance planifiée du système de gestion des commandes et des abonnements
 date: 2020-02-22 18:30:00
-resolved: false
+resolved: true
 resolvedWhen: 2020-02-22 19:00:00
 severity: notice
 affected:
