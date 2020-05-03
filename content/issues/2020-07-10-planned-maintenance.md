@@ -5,7 +5,7 @@ severity: informational
 affected:
   - Service Web Opencomp
   - Gestion des abonnements
-section: issue
+section: post
 ---
 
 Une maintenance planifiée est programmée. Il est prévu que l'application https://my.opencomp.fr soit inaccessible pendant un maximum de 4 heures. Le site Internet https://opencomp.fr sera également inaccessible pendant cette période.
