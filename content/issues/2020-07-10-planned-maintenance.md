@@ -1,7 +1,7 @@
 ---
 title: Maintenance planifiée
 date: 2020-07-10 09:00:00
-severity: informational
+severity: notice
 affected:
   - Service Web Opencomp
   - Gestion des abonnements
