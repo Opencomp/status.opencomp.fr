@@ -1,6 +1,8 @@
 ---
 title: Maintenance planifiée
 date: 2020-08-16 09:00:00
+resolved: true
+resolvedWhen: 2020-08-16 09:35:00
 severity: notice
 affected:
   - Service Web Opencomp
