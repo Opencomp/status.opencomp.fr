@@ -1,7 +1,7 @@
 ---
 title: Maintenance planifiée
 date: 2021-07-14 15:20:00
-resolved: false
+resolved: true
 resolvedWhen: 2021-07-14 15:50:00
 severity: notice
 affected:
