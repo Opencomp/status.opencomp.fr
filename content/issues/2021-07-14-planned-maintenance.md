@@ -2,7 +2,7 @@
 title: Maintenance planifiée
 date: 2021-07-14 15:20:00
 resolved: false
-#resolvedWhen: 2021-07-14 19:20:00
+resolvedWhen: 2021-07-14 15:50:00
 severity: notice
 affected:
   - Service Web Opencomp
