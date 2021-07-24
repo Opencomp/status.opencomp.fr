@@ -15,3 +15,5 @@ Une maintenance planifiée est programmée pour permettre la mise à jour de l'h
 ---
 
 La sauvegarde locale des machines virtuelles est terminée. Nous débutons la sauvegrade distante.  {{< track "2021-07-24 10:00:00" >}}   
+
+La sauvegarde distante des machines virtuelles est terminée. Nous débutons la montée de version de l'hyperviseur.  {{< track "2021-07-24 10:10:00" >}} 
