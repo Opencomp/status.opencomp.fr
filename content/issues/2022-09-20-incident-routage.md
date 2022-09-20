@@ -1,7 +1,8 @@
 ---
 title: Incident de routage
 date: 2022-09-20 13:30:00
-resolved: false
+resolved: true
+resolvedWhen: 2022-09-20 13:55:00
 severity: down
 affected:
   - Passerelle
