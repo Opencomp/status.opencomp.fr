@@ -1,8 +1,8 @@
 ---
 title: Maintenance planifiée du système de gestion des commandes et des abonnements
 date: 2022-10-31 09:00:00
-resolved: false
-resolvedWhen: 2022-10-31 09:30:00
+resolved: true
+resolvedWhen: 2022-10-31 10:30:00
 severity: notice
 affected:
   - Gestion des abonnements
