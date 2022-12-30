@@ -10,3 +10,9 @@ section: issue
 ---
 
 Une maintenance planifiée est programmée. Il est prévu que l'application https://my.opencomp.fr soit inaccessible pendant un maximum de 30 minutes.
+
+---
+
+La mise à jour du pilote de stockage Docker de aufs vers overlay2 est terminée.  {{< track "2022-12-30 17:15:00" >}}
+
+Nous débutons la montée de version de la machine virtuelle.  {{< track "2022-12-30 17:20:00" >}}
