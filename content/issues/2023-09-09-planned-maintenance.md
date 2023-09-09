@@ -1,8 +1,8 @@
 ---
 title: Maintenance planifiée
 date: 2023-09-09 17:00:00
-resolved: false
-resolvedWhen: 2023-09-09 21:00:00
+resolved: true
+resolvedWhen: 2023-09-09 17:42:00
 severity: notice
 affected:
   - Service Web Opencomp
