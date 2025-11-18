@@ -1,6 +1,6 @@
 ---
 title: Incident réseau
-date: 2025-11-18 11:48:00
+date: 2025-11-18 12:48:00
 resolved: true
 resolvedWhen: 2025-11-18 13:52:00
 severity: down
