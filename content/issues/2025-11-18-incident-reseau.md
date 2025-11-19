@@ -1,8 +1,8 @@
 ---
 title: Incident réseau
 date: 2025-11-18 12:48:00
-resolved: false
-resolvedWhen: 2025-11-18 13:52:00
+resolved: true
+resolvedWhen: 2025-11-18 15:42:00
 severity: disrupted
 affected:
   - Passerelle
