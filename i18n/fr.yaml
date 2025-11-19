@@ -45,7 +45,7 @@
 - id: justNow
   translation: quelques instants
 - id: someTimeAgo
-  translation:
+  translation: ''
 
 # Example usage: `5` + `years`
 # Final result: 'Last checked 5 years ago'
