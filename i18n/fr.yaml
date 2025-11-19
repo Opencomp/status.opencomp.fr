@@ -44,8 +44,8 @@
   translation: Actualisé il y a
 - id: justNow
   translation: quelques instants
-#- id: someTimeAgo
-#  translation: # Unable to translate
+- id: someTimeAgo
+  translation:
 
 # Example usage: `5` + `years`
 # Final result: 'Last checked 5 years ago'
