@@ -16,3 +16,4 @@ Une maintenance planifiée est programmée pour permettre la mise à jour de l'h
 
 Nous débutons la maintenance.  La sauvegarde locale des machines virtuelles est en cours {{< track "2026-05-22 20:30:00" >}}  
 
+La sauvegarde locale des machines virtuelles est terminée. Nous débutons la sauvegarde distante.  {{< track "2026-05-22 21:00:00" >}}  
