@@ -1,7 +1,7 @@
 ---
 title: Maintenance planifiée
 date: 2026-05-22 18:15:00
-resolved: false
+resolved: true
 resolvedWhen: 2026-05-22 23:30:00
 severity: notice
 affected:
